@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team
+title: team
 permalink: /team/
 nav: true
 nav_order: 3
