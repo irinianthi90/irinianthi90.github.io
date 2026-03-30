@@ -182,6 +182,79 @@
   }
 }
 
+.publications .abbr abbr.publication-badge {
+  color: #fff;
+  font-weight: 600;
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.4rem;
+  border: none;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.publications .abbr abbr.publication-badge a,
+.publications .abbr abbr.publication-badge div {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+/* IEEE – light blue */
+.publications .abbr .badge-ieee {
+  background-color: #5bc0de !important;
+}
+
+/* Elsevier – orange */
+.publications .abbr .badge-elsevier {
+  background-color: #ff8c00 !important;
+}
+
+/* MDPI – green */
+.publications .abbr .badge-mdpi {
+  background-color: #28a745 !important;
+}
+
+/* ACM – black */
+.publications .abbr .badge-acm {
+  background-color: #000000 !important;
+}
+
+/* USENIX – red */
+.publications .abbr .badge-usenix {
+  background-color: #dc3545 !important;
+}
+
+/* Springer – dark blue */
+.publications .abbr .badge-springer {
+  background-color: #003366 !important;
+}
+
+/* arXiv – red */
+.publications .abbr .badge-arxiv {
+  background-color: #b31b1b !important;
+}
+
+/* PhD – brown */
+.publications .abbr .badge-phd {
+  background-color: #8b5e3c !important;
+}
+
+/* Optional extras */
+.publications .abbr .badge-iet {
+  background-color: #20c997 !important;
+}
+
+.publications .abbr .badge-oxford {
+  background-color: #6f42c1 !important;
+}
+
+.publications .abbr .badge-education {
+  background-color: #795548 !important;
+}
+
+.publications .abbr .badge-preprint {
+  background-color: #607d8b !important;
+}
+
 .citation,
 .citation-number {
   color: var(--global-theme-color);
