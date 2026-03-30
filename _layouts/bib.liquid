@@ -4,13 +4,14 @@
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
+        {% assign badge_class = entry.abbr | slugify | prepend: 'badge-' %}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
-            class="badge rounded w-100"
+            class="badge rounded w-100 publication-badge {{ badge_class }}"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
@@ -22,7 +23,7 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <abbr class="badge rounded w-100 publication-badge {{ badge_class }}">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
       {% if entry.preview %}
@@ -363,21 +364,18 @@
     {% endif %}
 
     {% if entry.award %}
-      <!-- Hidden Award block -->
       <div class="award hidden d-print-inline">
         <p>{{ entry.award | markdownify }}</p>
       </div>
     {% endif %}
 
     {% if entry.abstract %}
-      <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
     {% if entry.bibtex_show %}
-      <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
@@ -386,7 +384,6 @@
     {% endif %}
 
     {% if entry.video and site.enable_video_embedding %}
-      <!-- Hidden video block -->
       <div class="abstract hidden">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
