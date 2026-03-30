@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Senior Lecturer in Cybersecurity & Datascience at <a href='https://www.cardiff.ac.uk/'>Cardiff University</a>. 
 
 profile:
   align: right
