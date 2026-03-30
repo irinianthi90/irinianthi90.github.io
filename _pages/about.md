@@ -27,6 +27,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+My work sits at the intersection of AI and cybersecurity, where I focus on how we can build systems that are not only intelligent, but also robust, trustworthy, and ready for the real world. Much of my work focuses on settings where systems are complex and constantly changing, and where attackers evolve just as quickly as the defences we build. In this context, I explore how to design robust machine learning-based detection systems for IoT and cyber-physical environments; how to identify and mitigate adversarial attacks against AI; and how to evaluate and improve the trustworthiness of AI systems deployed in high-stakes settings.
+
+A key part of my research is making sure what we build actually works in practice. I care deeply about moving beyond purely theoretical solutions and understanding what it takes to deploy AI securely and reliably in real-world environments. To support this, I work closely with industry partners including Airbus, Thales, BAE Systems, PwC, and National Highways, translating research into applied solutions across areas such as operational technology, connected systems, and critical infrastructure.
+
+More recently, my work has increasingly focused on AI assurance—understanding how we test, validate, and trust AI systems before and during deployment. As part of this work, I set up and I am one of the directors of the <a href='https://sai-lab.co.uk/'>Safe AI (SAI) Lab </a> at CU. In addition, through my role as co-founder of <a href='https://www.devi8.ai/'>devi8.ai </a>, I am also exploring how to operationalise these ideas into tools that organisations can use to assess and improve the safety, robustness, and compliance of their AI models.
+
+I am always keen to work with motivated students and collaborators who are excited about these challenges. If you’re interested in working with me, or even just having a conversation about these topics, feel free to get in touch.
+
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
