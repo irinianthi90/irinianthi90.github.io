@@ -34,9 +34,3 @@ A key part of my research is making sure what we build actually works in practic
 More recently, my work has increasingly focused on AI assurance—understanding how we test, validate, and trust AI systems before and during deployment. As part of this work, I set up and I am one of the directors of the <a href='https://sai-lab.co.uk/'>Safe AI (SAI) Lab </a> at CU. In addition, through my role as co-founder of <a href='https://www.devi8.ai/'>devi8.ai </a>, I am also exploring how to operationalise these ideas into tools that organisations can use to assess and improve the safety, robustness, and compliance of their AI models.
 
 I am always keen to work with motivated students and collaborators who are excited about these challenges. If you’re interested in working with me, or even just having a conversation about these topics, feel free to get in touch.
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
